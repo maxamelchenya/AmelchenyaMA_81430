@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    tty: true
+    volumes:
+      - .:/app
+    environment:
+      MYSQL_DATABASE: coins
+      MYSQL_USER: username
+      MYSQL_PASSWORD: password
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
