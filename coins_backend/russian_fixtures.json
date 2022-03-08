@@ -1,0 +1,260 @@
+[
+{
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$rxIgxTGlB4nL77HzONGv4Y$zSghvWMJ/rBmvtuOCue8h83TgoZTqzFQFCltlcyze/A=",
+        "last_login": null,
+        "username": "testuser1",
+        "email": "testuser1@gmail.com",
+        "created_at": "2022-02-25T10:47:28.380Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$CcXyEIdRayryX43tyDg8pW$xxPqAwCAqBwmOoNk0xC70L6/Fg1VGcD44DYjoBFVBI8=",
+        "last_login": null,
+        "username": "testuser2",
+        "email": "testuser2@gmail.com",
+        "created_at": "2022-02-25T10:47:38.641Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+        "name": "Золотые"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+        "name": "Серебряные"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+        "name": "Медные"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 4,
+    "fields": {
+        "name": "Военные"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 5,
+    "fields": {
+        "name": "Необычные"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 6,
+    "fields": {
+        "name": "Игровые"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 7,
+    "fields": {
+        "name": "Коллекционные"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 8,
+    "fields": {
+        "name": "Памятные"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 1,
+    "fields": {
+        "name": "Россия"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 2,
+    "fields": {
+        "name": "Англия"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 3,
+    "fields": {
+        "name": "США"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 4,
+    "fields": {
+        "name": "СССР"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 5,
+    "fields": {
+        "name": "Германия"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 6,
+    "fields": {
+        "name": "Австрия"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 7,
+    "fields": {
+        "name": "Чехия"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 8,
+    "fields": {
+        "name": "Китай"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "country": 6,
+        "category": 4,
+        "status": "For sale",
+        "name": "Монета1",
+        "image": "coins/download.jpeg",
+        "description": "Австрийская Военная монета",
+        "price": "11.10",
+        "year": 1925,
+        "end_date": "2022-03-08T20:03:24Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "country": 2,
+        "category": 1,
+        "status": "For sale",
+        "name": "Монета2",
+        "image": "coins/download_YVpdhr0.jpeg",
+        "description": "Английская Золотая монета",
+        "price": "10.00",
+        "year": 1300,
+        "end_date": "2022-03-08T20:05:25Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "country": 5,
+        "category": 6,
+        "status": "For sale",
+        "name": "Монета3",
+        "image": "coins/download_GhInagl.jpeg",
+        "description": "Немецкая Игровая монета",
+        "price": "123.00",
+        "year": 1569,
+        "end_date": "2022-03-08T20:06:08Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 4,
+    "fields": {
+        "user": 2,
+        "country": 8,
+        "category": 7,
+        "status": "For sale",
+        "name": "Монета4",
+        "image": "coins/download_vrXz2qs.jpeg",
+        "description": "Китайская Коллекционная монета",
+        "price": "1.09",
+        "year": 2001,
+        "end_date": "2022-03-08T20:07:06Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "country": 1,
+        "category": 3,
+        "status": "For sale",
+        "name": "Монета5",
+        "image": "coins/download_s8jxXoK.jpeg",
+        "description": "Русская Медная монета",
+        "price": "0.01",
+        "year": 2022,
+        "end_date": "2022-03-08T20:07:45Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "country": 4,
+        "category": 5,
+        "status": "For sale",
+        "name": "Монета6",
+        "image": "coins/download_FmLgpGB.jpeg",
+        "description": "Необычная монета СССР",
+        "price": "1000.01",
+        "year": 1922,
+        "end_date": "2022-03-08T20:08:26Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 7,
+    "fields": {
+        "user": 2,
+        "country": 4,
+        "category": 5,
+        "status": "For sale",
+        "name": "Монета7",
+        "image": "coins/download_UBGSgfl.jpeg",
+        "description": "Необычная монета СССР",
+        "price": "5555.55",
+        "year": 1933,
+        "end_date": "2022-03-08T20:09:05Z"
+    }
+}
+]

@@ -9,7 +9,13 @@ SECRET_KEY = "django-insecure-oab5iq335coghb)dd+j3yh!dq%mbp+)^o4u60vkj770b_)_i3y
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1", "localhost"]
+
+INTERNAL_IPS = ["0.0.0.0", "127.0.0.1", "localhost"]
+
+CORS_ALLOW_HEADERS = ['Authorization', "Content-type", "token"]
+
+CORS_ORIGIN_ALLOW_ALL=True
 
 
 INSTALLED_APPS = [
@@ -19,6 +25,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'corsheaders',
     "rest_framework",
     "django_filters",
     "rest_framework.authtoken",
@@ -43,6 +50,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = "coins_backend.urls"
@@ -66,23 +75,17 @@ TEMPLATES = [
 WSGI_APPLICATION = "coins_backend.wsgi.application"
 
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "PASSWORD": os.environ.get("MYSQL_PASSWORD"),
-#         "USER": os.environ.get("MYSQL_USER"),
-#         "NAME": os.environ.get("MYSQL_DATABASE"),
-#         "HOST": os.environ.get("MYSQL_HOST"),
-#         "PORT": os.environ.get("MYSQL_PORT"),
-#     }
-# }
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'coins',
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "PASSWORD": os.environ.get("MYSQL_PASSWORD"),
+        "USER": os.environ.get("MYSQL_USER"),
+        "NAME": os.environ.get("MYSQL_DATABASE"),
+        "HOST": os.environ.get("MYSQL_HOST"),
+        "PORT": os.environ.get("MYSQL_PORT"),
     }
 }
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -99,8 +102,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-LANGUAGE_CODE = "en-us"
+# LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = "UTC"
 

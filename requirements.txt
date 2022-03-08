@@ -4,6 +4,7 @@ backports.zoneinfo==0.2.1
 black==22.1.0
 click==8.0.4
 Django==4.0.2
+django-cors-headers==3.11.0
 django-filter==21.1
 djangorestframework==3.13.1
 importlib-metadata==4.11.1
