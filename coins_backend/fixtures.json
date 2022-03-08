@@ -1,0 +1,473 @@
+[
+{
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$rxIgxTGlB4nL77HzONGv4Y$zSghvWMJ/rBmvtuOCue8h83TgoZTqzFQFCltlcyze/A=",
+        "last_login": null,
+        "username": "testuser1",
+        "email": "testuser1@gmail.com",
+        "created_at": "2021-05-25T10:47:28.380Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$CcXyEIdRayryX43tyDg8pW$xxPqAwCAqBwmOoNk0xC70L6/Fg1VGcD44DYjoBFVBI8=",
+        "last_login": null,
+        "username": "testuser2",
+        "email": "testuser2@gmail.com",
+        "created_at": "2021-05-25T10:47:38.641Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eJGpvXDsUyp3HXovN6F9xZ$j2fLTWtU3YnAaP+aGfFswEcQGIseVcK9Egz/xNLNxRg=",
+        "last_login": null,
+        "username": "testuser3",
+        "email": "testuser3@gmail.com",
+        "created_at": "2021-01-26T21:49:43.906Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eJGpvXDsUyp3HXovN6F9xZ$j2fLTWtU3YnAaP+aGfFswEcQGIseVcK9Egz/xNLNxRg=",
+        "last_login": null,
+        "username": "testuser4",
+        "email": "testuser4@gmail.com",
+        "created_at": "2021-06-26T21:49:43.906Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eJGpvXDsUyp3HXovN6F9xZ$j2fLTWtU3YnAaP+aGfFswEcQGIseVcK9Egz/xNLNxRg=",
+        "last_login": null,
+        "username": "testuser5",
+        "email": "testuser5@gmail.com",
+        "created_at": "2021-06-26T21:49:43.906Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eJGpvXDsUyp3HXovN6F9xZ$j2fLTWtU3YnAaP+aGfFswEcQGIseVcK9Egz/xNLNxRg=",
+        "last_login": null,
+        "username": "testuser6",
+        "email": "testuser6@gmail.com",
+        "created_at": "2021-07-26T21:49:43.906Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eJGpvXDsUyp3HXovN6F9xZ$j2fLTWtU3YnAaP+aGfFswEcQGIseVcK9Egz/xNLNxRg=",
+        "last_login": null,
+        "username": "testuser7",
+        "email": "testuser7@gmail.com",
+        "created_at": "2021-09-26T21:49:43.906Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$PTgOugGx4OJ9HkylSuPzrY$UY3xDa3xVO62v7vlF9WIrJwA/yzA8mSnRWePL6M5QN4=",
+        "last_login": null,
+        "username": "testuser8",
+        "email": "testuser8@gmail.com",
+        "created_at": "2021-09-26T21:49:49.783Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$7cEwTGYnZVUFBNAFCIg9cQ$Pe8wKNKm/Z1nDqn1m0gdh4/wYgfZIrqgFdutDDJtGO0=",
+        "last_login": null,
+        "username": "testuser9",
+        "email": "testuser9@gmail.com",
+        "created_at": "2021-09-26T21:49:55.428Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$dsYOM3U0v8caH5kyQGPYLL$G6tuyEBzvZQJjRDzhlYe+PzmfLSnmFKnINsei8vwqRc=",
+        "last_login": null,
+        "username": "testuser10",
+        "email": "testuser10@gmail.com",
+        "created_at": "2021-12-26T21:50:06.454Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$w06xc9z8AjmPFa3aR7Qrs1$M6Y96XofHMhEfTcwMz0poQO3EnsKUCCuS7U7kDjrDcE=",
+        "last_login": null,
+        "username": "testuser11",
+        "email": "testuser11@gmail.com",
+        "created_at": "2021-12-26T21:50:12.843Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$0ixf2oCp28lTludICLSuqt$OrHETru0fSHeXne02/s795oFizCM/D1x3OUstQRiHmc=",
+        "last_login": null,
+        "username": "testuser12",
+        "email": "testuser12@gmail.com",
+        "created_at": "2022-02-26T21:50:34.999Z",
+        "avatar": "",
+        "is_staff": false,
+        "is_superuser": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$GeehGFeCLdgRkTlc9sDEJ7$EPeWqi6NIWJbQLyOvSGAJlhf3Khj6BV9gPdjW9vbgM4=",
+        "last_login": null,
+        "username": "testadmin",
+        "email": "testadmin@gmail.com",
+        "created_at": "2022-02-27T11:59:31.783Z",
+        "avatar": "",
+        "is_staff": true,
+        "is_superuser": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+        "name": "Gold"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+        "name": "Silver"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+        "name": "Coper"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 4,
+    "fields": {
+        "name": "War"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 5,
+    "fields": {
+        "name": "Unusual"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 6,
+    "fields": {
+        "name": "Game"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 7,
+    "fields": {
+        "name": "Collection"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 8,
+    "fields": {
+        "name": "Memory"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 1,
+    "fields": {
+        "name": "Russia"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 2,
+    "fields": {
+        "name": "Englang"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 3,
+    "fields": {
+        "name": "USA"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 4,
+    "fields": {
+        "name": "USSR"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 5,
+    "fields": {
+        "name": "Germany"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 6,
+    "fields": {
+        "name": "Austria"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 7,
+    "fields": {
+        "name": "Czech"
+    }
+},
+{
+    "model": "api.country",
+    "pk": 8,
+    "fields": {
+        "name": "China"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "country": 6,
+        "category": 4,
+        "status": "For sale",
+        "name": "Coin1",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "11.10",
+        "year": 1925,
+        "end_date": "2022-03-08T20:03:24Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "country": 2,
+        "category": 1,
+        "status": "For sale",
+        "name": "Coin2",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "10.00",
+        "year": 1300,
+        "end_date": "2022-03-08T20:05:25Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "country": 5,
+        "category": 6,
+        "status": "For sale",
+        "name": "Coin3",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "123.00",
+        "year": 1569,
+        "end_date": "2022-03-08T20:06:08Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 4,
+    "fields": {
+        "user": 2,
+        "country": 8,
+        "category": 7,
+        "status": "For sale",
+        "name": "Coin4",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "1.09",
+        "year": 2001,
+        "end_date": "2022-03-08T20:07:06Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "country": 1,
+        "category": 3,
+        "status": "For sale",
+        "name": "Coin5",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "0.01",
+        "year": 2022,
+        "end_date": "2022-03-08T20:07:45Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "country": 4,
+        "category": 5,
+        "status": "For sale",
+        "name": "Coin6",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "1000.01",
+        "year": 1922,
+        "end_date": "2022-03-08T20:08:26Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 7,
+    "fields": {
+        "user": 2,
+        "country": 4,
+        "category": 5,
+        "status": "For sale",
+        "name": "Coin7",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "5555.55",
+        "year": 1933,
+        "end_date": "2022-03-08T20:09:05Z"
+    }
+},
+{
+    "model": "api.coin",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "country": 1,
+        "category": 1,
+        "status": "Pending",
+        "name": "Coin8",
+        "image": "coins/coin.jpg",
+        "description": "description",
+        "price": "5555.55",
+        "year": 1933,
+        "end_date": "2022-03-08T20:09:05Z"
+    }
+},
+{
+    "model": "api.bidhistory",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "coin": 1,
+        "price": "11.21",
+        "date": "2022-02-28T15:40:19.345Z"
+    }
+}
+]
